@@ -17,8 +17,7 @@ _Clone and open https://findReplace.html in your browser._
 
 _This project makes use of:
 [Mocha](https://mochajs.org/), and
-[Chai](http://chaijs.com/) as testing-frameworks.
-And has a dependency for jQuery._
+[Chai](http://chaijs.com/) as testing-frameworks, and has a dependency on jQuery._
 
 
 ### Legal
