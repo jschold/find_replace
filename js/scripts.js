@@ -20,7 +20,6 @@ $(document).ready(function() {
     var newWord = $("input#newWord").val();
     var result = findReplace(userString, userWord, newWord);
 
-
     $("#result").text(result);
     event.preventDefault();
   });
