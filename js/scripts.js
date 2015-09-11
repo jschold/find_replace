@@ -1,6 +1,5 @@
-var findReplace = function(userWord, userString) {
-    if (userWord.indexOf(userString) >= 0) {
+var findReplace = function(userString, userWord) {
+    if (userString.indexOf(userWord) >= 0) {
     return userWord;
 }
-
 };
