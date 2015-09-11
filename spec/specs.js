@@ -8,5 +8,8 @@ describe('findReplace', function () {
     it("finds if a word exists in a string with punctuation", function () {
         expect(findReplace("can I pet your dog?" , "can")).to.be.eql("can");
     });
+    it("finds if a word exists in a string with capitalization", function () {
+        expect(findReplace("Can I pet your dog?" , "cAn")).to.be.eql("can");
+    });
 
 });
