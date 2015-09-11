@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Replace A Word</title>
+  </head>
+  <body>
+
+    <img src="replaced.png" style='position:fixed;top:0px;right:0px;width:50%;height:50%;z-index:-1;'>
+
+    <div class="container">
+      <h1>Replace your word with another (better?!) one</h1>
+      <br>
+
+      <form id="findReplace">
+        <div class="form-group">
+          <label for="userString">Enter a sentence or group of words:</label>
+          <input id="userString" type="text">
+        </div>
+
+        <form id="findReplace">
+          <div class="form-group">
+            <label for="userWord">Enter a word to replace:</label>
+            <input id="userWord" type="text">
+          </div>
+
+          <form id="findReplace">
+            <div class="form-group">
+              <label for="newWord">Enter the word to replace it with!:</label>
+              <input id="newWord" type="text">
+            </div>
+
+        <button type="submit" class="btn-warning">Click to see</button>
+      </form>
+      <br>
+      <br>
+        <h2 id = "result">
+      </div>
+    </div>
+  </body>
+</html>
